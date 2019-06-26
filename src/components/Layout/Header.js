@@ -7,19 +7,19 @@ export default function () {
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav ">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
+            <a class="nav-link " href="#">Shop <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Service</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Journal</a>
+            <a class="nav-link " href="#">Journal</a>
           </li>
         </ul>
 
-        <a class="navbar-brand mx-auto" href="#" >UModo<sup>01</sup></a>
+        <a class="navbar-brand mx-auto font-weight-bold" href="#" >UModo<sup>01</sup></a>
 
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -29,7 +29,7 @@ export default function () {
             <a class="nav-link" href="#">Sign In </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Cart</a>
+            <a class="nav-link" href="#">Cart <span class="badge badge-dark badge-pill">1</span></a>
           </li>
 
         </ul>
