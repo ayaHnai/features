@@ -1,10 +1,12 @@
 import React from 'react'
-import left from '../../images/left.jpg';
 export default function () {
+    
+const footerStyle ={
+    fontSize: '11px',
+    color:'#989898'
+}
+
     return (
-
-
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
    
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,7 +14,7 @@ export default function () {
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
 
-                <ul class="navbar-nav mx-auto">
+                <ul class="navbar-nav font-weight-normal mx-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
                     </li>
@@ -30,7 +32,7 @@ export default function () {
                         <a class="nav-link" href="#">Support</a>
                     </li>
                 </ul>
-                <a class="nav-link" href="#">Copy Right 2019</a>
+                 <span style={footerStyle}> &copy; 1823-2016 Great Simple Studio</span>
             </div>
         </nav>
 
