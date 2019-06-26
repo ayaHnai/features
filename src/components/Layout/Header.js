@@ -1,4 +1,20 @@
 import React from 'react'
+import {FaShoppingCart} from 'react-icons/fa';
+import {FaRegQuestionCircle} from 'react-icons/fa'
+const iconstyle = {
+  fill: "black",
+  margin:"0",
+  padding:"0"
+  
+}
+const astyle={
+  margin:"0"
+}
+const questionstyle={
+  fill:"none"
+}
+  
+
 export default function () {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -9,13 +25,13 @@ export default function () {
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Shop <span class="sr-only">(current)</span></a>
+            <a class="nav-link  d-inline" href="#">Shop <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Service</a>
+            <a class="nav-link  d-inline" href="#">Service</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Journal</a>
+            <a class="nav-link  d-inline" href="#">Journal</a>
           </li>
         </ul>
 
@@ -23,13 +39,14 @@ export default function () {
 
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link  d-inline" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Sign In </a>
+            <a class="nav-link  d-inline" href="#">Sign In </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Cart</a>
+          <li class="nav-item ">
+            <FaShoppingCart style={iconstyle}/> <a class="nav-link d-inline" href="#" style={astyle}>Cart </a><FaRegQuestionCircle />
+        
           </li>
 
         </ul>

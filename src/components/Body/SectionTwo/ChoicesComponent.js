@@ -2,7 +2,7 @@ import React from 'react'
 import ChoicesComponetTitle from './ChoicesComponetTitle';
 import left from '../../../images/left.jpg';
 import  '../../../styles/choices.css'
-import {FiShoppingCart} from 'react-icons/fi';
+import {FaShoppingCart} from 'react-icons/fa';
 
 import '../../../../node_modules/font-awesome/css/font-awesome.min.css'; 
 
@@ -17,7 +17,7 @@ export default function () {
                     <img src={left} alt="left"  />
                     <p>Blablablaaaaaa</p>
                     <p id='price'>$45</p>
-                    <button class="btn">Shop Now <FiShoppingCart class='s'/></button>
+                    <button class="btn">Shop Now <FaShoppingCart class='s'/></button>
                      </div>
                      </div>
                     <div class="col">

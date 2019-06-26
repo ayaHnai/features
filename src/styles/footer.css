@@ -1,0 +1,40 @@
+h6
+{
+    color: grey;
+
+}
+.footer a
+{
+    color: lightslategray;
+    direction:none;
+    font-size: 10px;
+}
+ul li .inputwithicon input
+{
+    
+    border: lightgray 0.2px solid;
+    width: 60%;
+    outline: none;
+    font-size: 10px;
+}
+ul li .inputwithicon .paperplane
+{
+    
+   background: black;
+   fill: white;
+  position: relative;
+height: 10%;
+ 
+}
+.footer
+
+{
+    margin-left: 0 ;
+    margin-top: 1rem;
+    margin-right: 0;
+}
+.icons
+{
+    position: absolute;
+    left:15%;
+}
