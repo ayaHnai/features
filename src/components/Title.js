@@ -1,13 +1,18 @@
 import React from 'react'
-export default function(){
 
+export default function(){
+const titleStyle = {
+
+}
     const subTitle = {
-      color:'#6c757d'
+      color:'#6c757d',
+      margin:"0px",
+      padding:"0px"
       };
 
 
     return(
-        <div>
+        <div  class="bg-light" style={titleStyle}>
             <div >
             <h4>Design your Own Custom T-Shirt Online With No Minimums</h4>
             </div>

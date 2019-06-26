@@ -3,7 +3,7 @@ export default function () {
 
 
     const communityChoicesTitleStyle = {
-        padding: '23px'
+        padding: '13px'
         
     }
     return (

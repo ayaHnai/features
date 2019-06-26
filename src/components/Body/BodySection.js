@@ -3,11 +3,11 @@ import DesignComponent from './SectionOne/DesignComponent'
 import ChoicesComponent from './SectionTwo/ChoicesComponent'
 export default function () {
     const bodyStyle = {
-       
+  
         };
       
     return (
-        <div  class="bg-light">
+        <div    style={bodyStyle} class="bg-light">
             <DesignComponent />
             <ChoicesComponent />
         </div>

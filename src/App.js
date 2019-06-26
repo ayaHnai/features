@@ -13,8 +13,11 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <div class="bg-light">      
       <Title/>
       <BodySection/>
+      </div>
+      
       <BottomSection/>
       <Footer/>
     </div>
