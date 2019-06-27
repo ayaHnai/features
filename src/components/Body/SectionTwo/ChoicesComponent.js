@@ -11,11 +11,11 @@ export default function () {
         padding :'15px'
     }
     const card = {
-        background: '#FF3399',
+        background: '#FFCCFF',
         padding: '15px 15px 35px 15px'
     }
     const card2 = {
-        background: '#FFdd99',
+        background: '#66CCFF',
         padding: '15px 15px 35px 15px'
         }
 
@@ -38,6 +38,7 @@ export default function () {
                                 <div id="color">Black</div>
                                 <div id="price">$499</div>
                             </div>
+                            
                         </div>
                     </div>
                     <div class="col"  style ={externalCard}>

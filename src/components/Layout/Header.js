@@ -1,4 +1,6 @@
 import React from 'react'
+import {FaShoppingCart} from 'react-icons/fa';
+
 export default function () {
   return (
     <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
@@ -29,7 +31,9 @@ export default function () {
             <a class="nav-link" href="#">Sign In </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Cart <span class="badge   border border-dark   bg-white   badge-pill">1</span></a>
+         
+            <a class="nav-link" href="#">  <FaShoppingCart /> Cart <span class="badge   border border-dark  bg-white  badge-pill">1</span></a>
+
           </li>
 
         </ul>

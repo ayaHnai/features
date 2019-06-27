@@ -1,0 +1,41 @@
+.cards :not(img)
+{
+position: absolute;
+top:30%;
+z-index: 1;
+color: white;
+left:10%;
+width: 80%;
+opacity: 0;
+}
+.cards #price
+{
+    top:50%;
+}
+.cards .btn
+{
+top:70%;
+color: black;
+background: white;
+left:30%;
+right: 30%;
+border: none;
+width:43%;
+height: 20%;
+}
+.cards:hover img
+ {
+    filter: blur(2px) brightness(60%);
+ }
+.cards:hover :not(img)
+{
+    opacity: 1;
+}
+.cards .btn .s
+{
+    fill: black;
+    width: 15%;
+    position: relative;
+    margin: 0;
+    left: 5%;
+}

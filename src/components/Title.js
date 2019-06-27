@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function(){
 const titleStyle = {
-
+paddingTop:'20px'
 }
     const subTitle = {
       color:'#6c757d',
